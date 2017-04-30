@@ -1,0 +1,75 @@
+.container {
+    width: 1800px;
+    max-width: 1000px;
+    margin: 0  ;
+    position: relative;
+}
+
+#newService {
+  background: #f4f7f8;
+  margin: auto;
+  position: sticky;
+  width: 1000px;
+  height: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-style: bold;
+  line-height: 24px;
+  font-weight: normal;
+  color:#333333;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+#newService .button{
+
+    text-align: center;
+}
+
+#newService button{
+  margin-right: 15px;
+}
+
+
+#newService h3 {
+    color: #1abc9c;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#newService .inputs{
+  display: inline-flex;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#newService .inputs label {
+    color: #333333;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+    margin-right: 8px;
+    margin-left: 20px;
+    display: inline;
+
+}
+
+#newService .inputs .fields{
+  color: #626466;
+  font-size: 12px;
+  margin-left: 5px;
+  padding: 4px;
+  display: inline;
+  border-color: #ddeeee;
+  border-radius: 5px;
+}
